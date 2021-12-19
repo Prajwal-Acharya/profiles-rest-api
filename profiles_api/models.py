@@ -1,5 +1,4 @@
 from django.db import models
-<<<<<<< HEAD
 from django.contrib.auth.models import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.contrib.auth.models import BaseUserManager
@@ -56,7 +55,6 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         """Return string representation of our user"""
         return self.email
-=======
+
 
 # Create your models here.
->>>>>>> 51a681ce35f1ec7502075b509e44bae9806f036d
